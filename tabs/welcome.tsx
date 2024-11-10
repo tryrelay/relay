@@ -27,7 +27,7 @@ export default function OnboardingPage() {
 
     try {
       // Send the email to the API
-      const response = await fetch('https://your-api-endpoint.com/subscribe', {
+      const response = await fetch('https://hook.eu2.make.com/22xhnkjjvpw7v2c569uxiucep6jvpayu', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email })
