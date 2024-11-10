@@ -214,7 +214,7 @@ export default function MainSidebar() {
         return;
       }
   
-      const response = await fetch("https://your-subscription-endpoint.com/subscribe", {
+      const response = await fetch("https://hook.eu2.make.com/22xhnkjjvpw7v2c569uxiucep6jvpayu", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
